@@ -1,0 +1,49 @@
+#toggle-view {
+	margin:0;
+	padding:0;
+	width:100%;
+}
+
+#toggle-view li, #toggle-view ul li {
+	list-style-type: none;
+	margin:10px 0 10px 20px;
+	padding-bottom: 5px;
+	position:relative;
+	color: #86b4f2;
+}
+
+#toggle-view li {
+	cursor:pointer;
+}
+
+#toggle-view .drop li,
+#toggle-view .drop p {
+	border:none;
+	color: #000000;
+}
+	
+#toggle-view h4 {
+	display:inline;
+	margin:0;
+	color: #000000;
+	font-weight:300 !important;
+	width:50%;
+}
+
+#toggle-view span {
+	display:inline;
+	position:absolute;
+	font-weight:bold;
+	left:-20px; top:0;
+	color: #93AEB1 !important;
+	font-size:20px;
+	line-height:28px;
+}
+	
+#toggle-view .drop {
+	font-size:16px;
+	margin:5px 0;
+	display:none;
+	width:90%;
+	background-color:transparent;
+}
